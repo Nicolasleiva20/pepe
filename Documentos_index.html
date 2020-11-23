@@ -1,38 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
     <meta charset="UTF-8">
     <title>pagina de la clinica</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/style 2.css" media="screen"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	<link rel="stylesheet" href="CSS/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="js/bootstrap.min..js">
+	<link rel="stylesheet" href="CSS/estilos.css">
+	<link rel="stylesheet" href="CSS/fontello.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/main 2.js"></script>
 </head>
 <body>
-    <h2>Formulario </h2>
+    <div class="logotipo">
+        <center>
+            <h1>Clinica San Agustin</h1>
+            
+            <img src= "foto/afuera.jpg">
+        </center>
+    </div>
+    <div class="navegacion">
+        <div class="boton-menu">
+            <a href="#"><span class="icon icon-menu"></span></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
     
        <form> 
-       <p>Nombre y Apellido </p>
-       <input type="text" name="Nombre y Apellido" id="Nombre y Apellido" placeholder="Ingrese su Nombre y Apellido ">
-       </form>
-    
-       <form>
-       <p> Obra social </p>
-       <input type="text" name=" obra social" id="obra social" placeholder="Ingrese su Obra Social ">
-       </form>
-       <p> ¿Es alergico a algo? </p>
-       <input type="text" name="alergias" id="alergias" placeholder="Si/No ">
-       </form>
-       <form>
-        
-       <from>
-       <p>Sintomas que tiene </p>
-       <input type="text" name="Sintomas" id="Sintomas" placeholder="Ingrese sus sintomas ">
+        <fieldset>
+            <legend>DATOS OBLIGATORIOS PARA SOLICITAR SU TURNO ONLINE:</legend>
+       <label for="nombre">Ingrese su Nombre:</label>
+        <input type="text" name="Nombre" value="" id="Nombre" placeholder="Nombre" required><br> 
+           <label for="DNI:">Ingrese su Apellido:</label>
+        <input type="text"name="Apellido" value="" id="Apellido" placeholder="Apellido" required> <br>
+        <label for="obra social">Ingrese su Obra Social:</label>
+        <input type="text"name="Telefono" value="" id="Dni" placeholder="Obra social" required> <br>
+        <label for="Telefono">Ingrese Telefono de contacto:</label>
+        <input type="text"name="Telefono" value="" id="Dni" placeholder="Telefono" required> <br>
+        <label for="nombre">Ingrese Correo Electronico:</label>
+        <input type="text" name="Nombre" value="" id="Nombre" placeholder="Ingrese su Correo Electronico" required><br> 
+     </select> 
+        <label for="apellido">Ingrese Especialista :</label>
+        <select name=""id="" required> <br>
+         <option value="">Pediatria</option>
+         <option value="">Medico oftalmologo</option>
+         <option value="">Ginecologo</option>
+         <option value="">kinesiolog&iacute;a</option>
+         <option value="">Cardiolog&iacute;a</option>
+         <option value="">Traumatolog&iacute;a</option><br>
+         <option value="">Diabetologa</option>
+         <option value="">Clinica medica</option>
+ 
+     </select> <br>
+        <label for="nombre">Ingrese Sintomas:</label>
+        <input type="text" name="Nombre" value="" id="Nombre" placeholder="Ingrese sintomas" ><br>
+        <label for="foto">Adjunte Foto(en caso de alergias, picaduras de insectos, fracturas, etc.):</label>
+       <input type="file" name="imgadd " id="imgadd"> <br>
+       <label for="nombre">Adquiera Fecha de su posible turno:</label>
+       <input type="date"  name="fecha" value="" id="fecha"  > <br>
+       
+    </fieldset>
        </from>
-       <from>
-       <p> ¿A roto la cuarentena estos ultimos meses? </p>
-       <input type="text" name="rompio la cuarentena" id= "rompio la cuarentena " placeholder=" Si/No ">
-       </from>
-       <from>
-       <p>Tuvo contacto con alguna perosa del exterior </p>
-       <input type="text" name="contacto" id="contacto" placeholder="Si/No ">
-       </from>
+       <input type="submit"  value="Enviar" id="boton">
+       
+       <input type="reset" value="Borrar">
 </body>
 </html>

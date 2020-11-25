@@ -94,20 +94,8 @@ header{
 		display: block;
 	}
 }
-img{
-	width: 30%;
-	height: auto;
-}
-center img{
-margin: auto;
-}
-h3{
-	color: rgba(111,71,104);
-}
-h4{
-	color: rgba(133,54,52);
-}
-.hola{
-	margin-top: -20%;
-	padding-top: -20%;
+p{
+
+        color: rgba( 191, 66, 29 );
+    
 }

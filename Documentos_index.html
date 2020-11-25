@@ -36,110 +36,44 @@
     </div>
     <h3>DATOS OBLIGATORIOS PARA SOLICITAR SU TURNO ONLINE:</h3>
             <form> 
-                <div class="hola"></div>
-            <fieldset>
-            <table>
-                <tr>
-                    <td>Nombre:</td>
-                    <td>
-                        <input type="text" name="Nombre"  required>
+              
+                <label for="nombre">Ingrese su Nombre:</label>
+                <input type="text" name="Nombre" value="" id="Nombre" placeholder="Nombre" required><br> 
+                 <label for="DNI:">Ingrese su Apellido:</label>
+                <input type="text"name="Apellido" value="" id="Apellido" placeholder="Apellido" required> <br>
 
+                <label for="obra social">Ingrese su Obra Social:</label>
+                <input type="text"name="Telefono" value="" id="Dni" placeholder="Obra social" required> <br>
+                <label for="Telefono">Ingrese Telefono de contacto:</label>
+                <input type="text"name="Telefono" value="" id="Dni" placeholder="Telefono" required> <br>
+                <label for="nombre">Ingrese Correo Electronico:</label>
+                <input type="text" name="Nombre" value="" id="Nombre" placeholder="Ingrese su Correo Electronico" required><br> 
 
-
-                    </td>
-                </tr> <br>
-                <tr>
-                    <td>Apellido:</td>
-                    <td>
-                        <input type="text" name="apellido" required>
-
-
-
-                    </td>
-                </tr> <br>
-                <tr>
-                    <td>Telefono:</td>
-
-                    <td>
-                        <input type="text" name="apellido"  required>
-
-
-                    </td>
-                </tr> <br> 
-                <tr>
-                    <td>Obra social:</td>
-
-                    <td>
-                        <input type="text" name="obra" required>
-
-
-                    </td>
-                </tr> <br>
-         
-                <tr>
-                    <td>Especialista</td>
-
-                    <td>
-                        <select>
-                            <option value="">Pediatria</option>
-                            <option value="">Medico oftalmologo</option>
-                            <option value="">Ginecologo</option>
-                            <option value="">kinesiolog&iacute;a</option>
-                            <option value="">Cardiolog&iacute;a</option>
-                            <option value="">Traumatolog&iacute;a</option><br>
-                            <option value="">Diabetologa</option>
-                            <option value="">Clinica medica</option>
-                        </select>
-                    </td> <br>
-                <tr>
-                <td>Correo:</td>
-
-                    <td>
-                        <input type="text" name="Correo" required>
-
-
-                    </td>
-                </tr> <br>
-           
-                <tr>
-                    <td>Sintomas:</td>
-
-                        <td>
-                            <input type="text" name="Correo">
-
-
-
-                        </td>
-                    </tr> <br>
-                    <tr>
-                      
-                        <td>Adjunte foto:</td>
-
-                            <td>
-                                <input type="file" name="Foto">
-
-
-                            </td>
-                        </tr> <br>
-                        
-                        <td>Aquiera fecha:</td>
-
-                        <td>
-
-
-                            <input type="date"  name="fecha"> <br>
-
-                        </td>
-                    </tr> <br>
-                   
-                 
-            </table>
+            </select> 
+            <label for="apellido">Ingrese Especialista :</label>
+            <select name=""id="" required> <br>
+             <option value="">Pediatria</option>
+             <option value="">Medico oftalmologo</option>
+             <option value="">Ginecologo</option>
+             <option value="">kinesiolog&iacute;a</option>
+             <option value="">Cardiolog&iacute;a</option>
+             <option value="">Traumatolog&iacute;a</option><br>
+             <option value="">Diabetologa</option>
+             <option value="">Clinica medica</option>
+     
+         </select> <br>
+            <label for="nombre">Ingrese Sintomas:</label>
+            <input type="text" name="Nombre" value="" id="Nombre" placeholder="Ingrese sintomas" ><br>
+            <label for="foto">Adjunte Foto(en caso de alergias, picaduras, fracturas, etc):</label>
+           <input type="file" name="imgadd " id="imgadd"> <br>
+           <label for="nombre">Adquiera Fecha de su posible turno:</label>
+           <input type="date"  name="fecha" value="" id="fecha"  > <br>
             </fieldset>
-            <input type="submit"  value="Enviar" id="boton">
+                 <input type="submit"  value="Enviar" id="boton">
        
-
-
-            <input type="reset" value="Borrar">
+                <input type="reset" value="Borrar">
+        </div>
+        
         </form>
         
        

@@ -94,6 +94,16 @@ header{
 		display: block;
 	}
 }
-p{
-    color: rgba( 191, 66, 29 );
+img{
+	width: 30%;
+	height: auto;
+}
+center img{
+margin: auto;
+}
+h3{
+	color: rgba(111,71,104);
+}
+h4{
+	color: rgba(133,54,52);
 }
